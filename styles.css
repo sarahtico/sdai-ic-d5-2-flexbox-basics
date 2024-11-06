@@ -1,2 +1,16 @@
 /* styles.css */
 /* Add styles for gallery here */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.galeery img {
+    width: 200px;
+    height: 200px; 
+    object-fit: cover; 
+    margin: 5px
+
+}
